@@ -12,6 +12,8 @@ struct ContentView: View {
         VStack {
             Text("Udder")
                 .padding()
+            Text("Test")
+                .padding()
             Image("foto")
                 .resizable()
                 .aspectRatio(contentMode: .fit)
